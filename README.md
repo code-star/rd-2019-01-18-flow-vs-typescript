@@ -31,7 +31,7 @@ class Test {
 
 ##### babel
 
-Babel is about as straightforward to setup, with one additional configuration file to add:
+Babel is about as straightforward to setup, with one additional configuration file to add, `.babelrc`:
 
 ```
 {
