@@ -50,15 +50,10 @@ Importing is a bit different, `import { type FileID} from './index'`, if you for
 
 ### Differences
 - Predicate Functions
-- ReadOnlyArray
 - Classes are limited; no private / public / etc
-
 
 #### Predicate Functions
 Adds the `%checks` syntax to a function. It's return value is then used by the compiler to make non-null assumptions of variables. This is currently not available in TypeScript.
-
-#### ReadOnlyArray
-This makes an Array, actually readonly through the compiler. It will actively error when you try to do `.push()` or assign `arr[2]` directly, which is something that TypeScript does not do by default.
 
 #### Limited class access modifiers
 In Flow there are no (known) ways to indicate `private` or `public` functions or variables.
